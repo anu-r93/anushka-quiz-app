@@ -98,12 +98,12 @@ div .button-box {
 
   justify-content: space-around;
 }
-div button {
+/* div button {
   width: 100px;
   height: 50px;
   border-color: #331f85;
   border-radius: 4px;
-}
+} */
 div.settings {
   padding: 40px;
   text-align: justify;

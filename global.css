@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+header {
+  color: white;
+  text-align: center;
+  background-color: #a292e3;
+  background-attachment: fixed;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border: 1px solid #dedede;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid #dedede;
+  background-color: #a292e3;
+}
+footer .navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.navbar img {
+  height: 30px;
+  width: 30px;
+}
+.container section {
+  /* height: 150px; */
+  width: 300px;
+  border: 1px solid #dedede;
+  margin-bottom: 20px;
+  box-shadow: 5px 4px 10px 2px rgb(135, 118, 160);
+  padding: 10px;
+  text-align: center;
+  color: #331f85;
+  position: relative;
+}
+.container {
+  padding: 20px 20px 50px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container section .answer {
+  background-color: white;
+  color: black;
+  height: 35px;
+  border-radius: 5px;
+}
+div .tag {
+  /* height: 25px; */
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-top: 10px;
+}
+div .tag button {
+  margin: 2px;
+  background-color: rgb(80, 79, 83);
+  color: white;
+  border-radius: 5px;
+}
+.bookmark {
+  position: absolute;
+  top: -15px;
+  right: 0;
+}
+.bookmark img {
+  height: 30px;
+  width: 30px;
+}
+div .info {
+  display: flex;
+  justify-content: space-around;
+}
+div .name {
+  display: flex;
+}

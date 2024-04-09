@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+header {
+  color: white;
+  text-align: center;
+  background-color: #a292e3;
+  background-attachment: fixed;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border: 1px solid #dedede;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid #dedede;
+  background-color: #a292e3;
+}
+footer .navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.navbar img {
+  height: 30px;
+  width: 30px;
+}
+.container section {
+  /* height: 150px; */
+  width: 300px;
+  border: 1px solid #dedede;
+  margin-bottom: 20px;
+  box-shadow: 5px 4px 10px 2px rgb(135, 118, 160);
+  padding: 10px;
+  text-align: center;
+  color: #331f85;
+  position: relative;
+}
+.container {
+  padding: 20px 20px 50px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container section .answer {
+  background-color: white;
+  color: black;
+  height: 35px;
+  border-radius: 5px;
+}
+div.tag {
+  /* height: 25px; */
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-top: 10px;
+}
+div.tag button {
+  margin: 2px;
+  background-color: rgb(80, 79, 83);
+  color: white;
+  border-radius: 5px;
+}
+.bookmark {
+  position: absolute;
+  top: -15px;
+  right: 0;
+}
+.bookmark img {
+  height: 30px;
+  width: 30px;
+}
+div .info {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+div.name {
+  display: flex;
+  margin-top: 35px;
+}
+div.about-me {
+  padding: 10px;
+  text-align: justify;
+}
+.button-box img {
+  height: 30px;
+  width: 30px;
+}
+div .button-box {
+  display: flex;
+  border-width: 5px;
+
+  justify-content: space-around;
+}
+/* div button {
+  width: 100px;
+  height: 50px;
+  border-color: #331f85;
+  border-radius: 4px;
+} */
+div.settings {
+  padding: 40px;
+  text-align: justify;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #000000;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

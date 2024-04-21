@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz-App by Anushka</title>
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="card.css" />
+    <script src="./form.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>F.R.I.E.N.D.S Quiz App</h1>
+    </header>
+    <main class="main-container">
+      <section class="form--container">
+        <form name="question-form" data-js="question-card">
+          <label for="question">Your Question:</label>
+          <textarea
+            id="question"
+            name="question"
+            rows="4"
+            cols="20"
+            maxlength="150"
+            class="input--textarea"
+          ></textarea>
+          <p class="question--max--length">
+            <span data-js="question-length">150</span> characters left
+          </p>
+          <label for="answer">Your Answer:</label>
+          <textarea
+            id="answer"
+            name="answer"
+            rows="4"
+            cols="20"
+            maxlength="150"
+            class="input--textarea"
+          ></textarea>
+          <p class="answer--max--length">
+            <span data-js="answer-length">150</span> characters left
+          </p>
+          <label for="tag">Tag:</label>
+          <input type="text" id="tag" name="tag" />
+          <button class="form--submit" data-js="submit-button">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <nav class="navbar">
+        <a href="index.html"
+          ><img
+            src="resources/home.png"
+            alt="home icon unsigned"
+            class="home-icon"
+        /></a>
+        <a href="bookmarks.html"
+          ><img
+            src="resources/bookmark_transparent.png"
+            alt="bookmark icon unsigned"
+            class="bookmark-icon"
+        /></a>
+        <a href="form.html"
+          ><img
+            src="images/add_filled.png"
+            alt="add image signed"
+            class="add-icon"
+        /></a>
+        <a href="profile.html"
+          ><img
+            src="resources/profile.png"
+            alt="profile icon signed"
+            class="bookmark-icon"
+        /></a>
+      </nav>
+    </footer>
+  </body>
+</html>

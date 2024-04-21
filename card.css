@@ -63,15 +63,15 @@ section.card-container .answer:before {
   content: "";
   background: linear-gradient(
     45deg,
-    #ff0000,
-    #ff7300,
-    #fffb00,
-    #48ff00,
-    #00ffd5,
-    #002bff,
+    #4a3b79,
+    #427e9d,
+    #a10fce,
+    #435c3b,
+    #7914d8,
+    #1c1524,
     #7a00ff,
-    #ff00c8,
-    #ff0000
+    #9f558f,
+    #b170e7
   );
   position: absolute;
   top: -2px;

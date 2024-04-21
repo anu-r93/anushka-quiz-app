@@ -6,11 +6,12 @@
     <title>Quiz-App by Anushka</title>
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="profile.css" />
+    <script src="./profile.js" defer></script>
   </head>
 
   <body>
     <header>
-      <h1>F.R.I.E.N.D.S Quiz App</h1>
+      <h1>Profile</h1>
     </header>
     <main class="profile">
       <section class="info">
@@ -42,9 +43,13 @@
         <h3>Settings</h3>
         <div class="dark-mode">
           <p>Dark Mode</p>
-          <label class="switch">
-            <input type="checkbox" />
-            <span class="slider round"></span>
+          <label class="switch" class="checkbox-label">
+            <input
+              data-js="dark-mode-toggle"
+              type="checkbox"
+              class="checkbox"
+            />
+            <span class="slider"></span>
           </label>
         </div>
       </div>

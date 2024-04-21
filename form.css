@@ -1,0 +1,59 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px 50px 20px;
+}
+
+label {
+  font-size: 14px;
+}
+
+section form {
+  display: flex;
+  flex-direction: column;
+}
+.form--container {
+  justify-content: center;
+  border: 0.1px solid rgb(89, 72, 138);
+  margin-top: 10px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 5px 4px 10px 2px rgb(135, 118, 160);
+}
+
+form #tag {
+  display: flex;
+  width: 100%;
+}
+
+form .input--textarea {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+
+  font-size: 12px;
+  width: 96%;
+}
+
+.form--submit {
+  padding: 2px;
+  margin-top: 20px;
+  width: 100px;
+  align-self: center;
+  background-color: #a292e3;
+  border-color: black;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.main-container .card-container {
+  margin-top: 20px;
+}
+
+form textarea + p {
+  font-size: 10px;
+  color: gray;
+  margin-bottom: 20px;
+  text-align: right;
+}

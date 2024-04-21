@@ -3,73 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz-App</title>
+    <title>Quiz-App by Anushka</title>
     <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="profile.css" />
+    <script src="script.js" defer></script>
   </head>
 
   <body>
     <header>
-      <h1>Quiz App</h1>
+      <h1>F.R.I.E.N.D.S Quiz</h1>
     </header>
-    <div class="container">
-      <section>
+    <main class="container">
+      <section class="card-container">
         <h4>
           What is the surname of Ross and Monica, two of the main characters in
           Friends?
         </h4>
-        <button class="answer">Show Answer</button>
-        <div class="tag">
-          <button>#friends</button>
-          <button>#comedy</button>
-          <button>#tvshows</button>
-        </div>
+        <button class="answer" data-js="first--answer">SHOW ANSWER</button>
+        <p class="show--answer" data-js="show--answer">Geller</p>
+        <article class="tag">
+          <p>#friends</p>
+          <p>#comedy</p>
+          <p>#tvshows</p>
+        </article>
         <div class="bookmark">
-          <img src="resources/bookmark_transparent.png" alt="bookmark" />
+          <img
+            data-js="bookmark-on-click"
+            src="resources/bookmark_transparent.png"
+            alt="bookmark"
+          />
         </div>
       </section>
-      <section>
+      <section class="card-container">
         <h4>
           Which character famously says "How you doin'?" as a pick-up line?
         </h4>
-        <button class="answer">Show Answer</button>
-        <div class="tag">
-          <button>#friends</button>
-          <button>#comedy</button>
-          <button>#tvshows</button>
-        </div>
+        <button class="answer">SHOW ANSWER</button>
+        <article class="tag">
+          <p>#friends</p>
+          <p>#comedy</p>
+          <p>#tvshows</p>
+        </article>
         <div class="bookmark">
           <img src="resources/bookmark_filled.png" alt="bookmark" />
         </div>
       </section>
-      <section>
+      <section class="card-container">
         <h4>Which character is a paleontologist by profession?</h4>
-        <button class="answer">Show Answer</button>
-        <div class="tag">
-          <button>#friends</button>
-          <button>#comedy</button>
-          <button>#tvshows</button>
-        </div>
+        <button class="answer">SHOW ANSWER</button>
+        <article class="tag">
+          <p>#friends</p>
+          <p>#comedy</p>
+          <p>#tvshows</p>
+        </article>
         <div class="bookmark">
           <img src="resources/bookmark_transparent.png" alt="bookmark" />
         </div>
       </section>
-      <section>
+      <section class="card-container">
         <h4>
           What is the surname of Ross and Monica, two of the main characters in
           Friends?
         </h4>
-        <button class="answer">Hide Answer</button>
+        <button class="answer">HIDE ANSWER</button>
         <p>Geller</p>
-        <div class="tag">
-          <button>#friends</button>
-          <button>#comedy</button>
-          <button>#tvshows</button>
-        </div>
+        <article class="tag">
+          <p>#friends</p>
+          <p>#comedy</p>
+          <p>#tvshows</p>
+        </article>
         <div class="bookmark">
           <img src="resources/bookmark_filled.png" alt="bookmark" />
         </div>
       </section>
-    </div>
+    </main>
 
     <footer>
       <nav class="navbar">
@@ -84,6 +92,9 @@
             src="resources/bookmark_transparent.png"
             alt="bookmark icon unsigned"
             class="bookmark-icon"
+        /></a>
+        <a href="form.html"
+          ><img src="images/add.png" alt="add image unsigned" class="add-icon"
         /></a>
         <a href="profile.html"
           ><img

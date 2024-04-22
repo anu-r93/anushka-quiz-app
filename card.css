@@ -12,7 +12,7 @@ section.card-container {
   border: 0.1px solid rgb(89, 72, 138);
 }
 section.card-container .answer {
-  background-color: #000;
+  background-color: #3b0176;
   color: #fff;
   height: 35px;
   border-radius: 5px;
@@ -105,7 +105,7 @@ section.card-container .answer:after {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #000;
+  background: #3b0176;
   left: 0;
   top: 0;
   border-radius: 10px;
